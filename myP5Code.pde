@@ -8,10 +8,24 @@ void setup() {
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
   fill(255,255,255);
-  strokeWeight(1);
+  strokeWeight(4);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
+  //nose
+  line(175, 1, 175, 145)
+  line(225, 1, 225, 145)
+  triangle(150, 200, 245, 200, 200, 125)
+
+  //eyes
+  ellipse(85, 120, 175, 100)
+  ellipse(315, 120, 175, 100)
+  ellipse(85, 110, 60, 80)
+  ellipse(315, 110, 60, 80)
+  fill(255, 0, 0)
+  strokeWeight(8)
+  ellipse(85, 110, 8, 8)
+  ellipse(315, 110, 8, 8)
 
   
 
