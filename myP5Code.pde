@@ -18,14 +18,17 @@ void draw(){
   triangle(150, 200, 245, 200, 200, 125)
 
   //eyes
-  ellipse(85, 120, 175, 100)
-  ellipse(315, 120, 175, 100)
-  ellipse(85, 110, 60, 80)
-  ellipse(315, 110, 60, 80)
-  fill(255, 0, 0)
-  strokeWeight(8)
-  ellipse(85, 110, 8, 8)
-  ellipse(315, 110, 8, 8)
+  ellipse(85, 120, 175, 100);
+  ellipse(315, 120, 175, 100);
+  fill(135, 206, 235);
+  ellipse(85, 110, 60, 80);
+  ellipse(315, 110, 60, 80);
+  strokeWeight(8);
+  ellipse(85, 110, 8, 8);
+  ellipse(315, 110, 8, 8);
+
+//head
+arc(20, 20, 20, 20, start, stop)
 
   
 
