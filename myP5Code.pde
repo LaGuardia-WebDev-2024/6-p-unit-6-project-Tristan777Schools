@@ -11,13 +11,29 @@ void draw(){
   strokeWeight(4);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
+
+  //chin
+  ellipse(200, 150, 500, 500)
   
+//face colors
+fill(255, 0, 0)
+rect(-5, -5, 200, 100)
+fill(0, 255, 0)
+rect(220, -5, 200, 100)
+
   //nose
+  fill(199, 21, 133)
+  rect(175, 1, 50, 175)
   line(175, 1, 175, 145)
   line(225, 1, 225, 145)
+  fill(250, 3, 62)
   triangle(150, 200, 245, 200, 200, 125)
 
+
+
+translate(0, -30)
   //eyes
+  fill(255, 234, 0)
   ellipse(85, 120, 175, 100);
   ellipse(315, 120, 175, 100);
   fill(135, 206, 235);
@@ -27,8 +43,6 @@ void draw(){
   ellipse(85, 110, 8, 8);
   ellipse(315, 110, 8, 8);
 
-//head
-arc(20, 20, 20, 20, start, stop)
 
   
 
