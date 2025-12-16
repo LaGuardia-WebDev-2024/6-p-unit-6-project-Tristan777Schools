@@ -12,8 +12,22 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
 
+//background
+fill(111, 150, 255)
+rect(0, 0, 200, 400)
+fill(46, 127, 95)
+rect(200, 0, 200, 400)
+
   //chin
+  fill(255, 99, 9)
   ellipse(200, 150, 500, 500)
+  fill(26, 98, 205)
+  arc(200, 150, 500, 500,radians(270), radians(450))
+
+  //lips
+  fill(239, 28, 77)
+  ellipse(200, 310, 150, 75)
+  line(129, 307, 274, 310)
   
 //face colors
 fill(255, 0, 0)
