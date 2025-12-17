@@ -8,7 +8,7 @@ void setup() {
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
   fill(255,255,255);
-  strokeWeight(4);
+  strokeWeight(5);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
 
@@ -23,6 +23,13 @@ rect(200, 0, 200, 400)
   ellipse(200, 150, 500, 500)
   fill(26, 98, 205)
   arc(200, 150, 500, 500,radians(270), radians(450))
+stroke(255, 234, 0)
+  strokeWeight(3);
+  line(38, 127, 38, 340)
+  line(76, 127, 76, 365)
+  line(110, 127, 110, 380)
+  stroke(0, 0, 0)
+   strokeWeight(5);
 
   //lips
   fill(239, 28, 77)
@@ -53,6 +60,11 @@ translate(0, -30)
   fill(135, 206, 235);
   ellipse(85, 110, 60, 80);
   ellipse(315, 110, 60, 80);
+  stroke(0, 0, 255)
+  strokeWeight(2);
+  ellipse(85, 110, 40, 60);
+  ellipse(315, 110, 40, 60);
+  stroke(0, 0, 0);
   strokeWeight(8);
   ellipse(85, 110, 8, 8);
   ellipse(315, 110, 8, 8);
